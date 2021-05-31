@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card { margin-bottom: 10px; }
+
+.header,
+.body,
+.footer,
+.response {
+  padding: 5px;
+}
+
+.header,
+.body,
+.footer{
+  border: 1px solid;
+}
+
+.header { background: #0F0; }
+
+.response { background: #ccc; }
